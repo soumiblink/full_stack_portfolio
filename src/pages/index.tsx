@@ -3,14 +3,14 @@ import Skills from "@/components/Skills";
 import Projects from "@/components/Projects";
 import Experience from "@/components/Experience";
 import Contact from "@/components/Contact";
-import heroBg from "@/assets/hero-bg.jpg";
+import milkywayBg from "@/assets/milkyway.jpg";
 
 const Index = () => {
   return (
     <div 
       className="min-h-screen relative"
       style={{
-        backgroundImage: `url(${heroBg})`,
+        backgroundImage: `url(${milkywayBg})`,
         backgroundSize: 'cover',
         backgroundPosition: 'center',
         backgroundAttachment: 'fixed'

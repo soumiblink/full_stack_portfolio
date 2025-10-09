@@ -25,7 +25,7 @@ const skillsData = [
   {
     icon: Zap,
     title: "Tools & DevOps",
-    skills: ["Git", "CI/CD", "Linux", "Nginx", "Azure", "Jira", "Agile Methodologies"],
+    skills: ["Git", "CI/CD", "Linux", "Nginx", "Azure", "Jira", "Agile Methodologies" ,"Gemini AI" , "Vertex AI", "Postman", "OpenCV"],
   },
   {
     icon: Palette,
