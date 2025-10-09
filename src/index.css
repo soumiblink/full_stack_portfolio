@@ -1,0 +1,116 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+/* Definition of the design system. All colors, gradients, fonts, etc should be defined here. 
+All colors MUST be HSL.
+*/
+
+@layer base {
+  :root {
+    --background: 225 25% 6%;
+    --foreground: 210 40% 98%;
+
+    --card: 225 20% 10%;
+    --card-foreground: 210 40% 98%;
+
+    --popover: 225 20% 10%;
+    --popover-foreground: 210 40% 98%;
+
+    --primary: 270 75% 65%;
+    --primary-foreground: 210 40% 98%;
+
+    --secondary: 195 90% 55%;
+    --secondary-foreground: 225 25% 6%;
+
+    --muted: 225 20% 15%;
+    --muted-foreground: 215 20% 65%;
+
+    --accent: 280 85% 70%;
+    --accent-foreground: 225 25% 6%;
+
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 210 40% 98%;
+
+    --border: 225 20% 18%;
+    --input: 225 20% 18%;
+    --ring: 270 75% 65%;
+
+    --radius: 0.75rem;
+
+    /* Custom gradient stops */
+    --gradient-start: 270 75% 65%;
+    --gradient-middle: 250 85% 60%;
+    --gradient-end: 195 90% 55%;
+    
+    /* Glass effect */
+    --glass-bg: 225 20% 10%;
+    --glass-border: 225 20% 20%;
+    
+    /* Glow colors */
+    --glow-primary: 270 75% 65%;
+    --glow-secondary: 195 90% 55%;
+
+    --sidebar-background: 225 20% 8%;
+    --sidebar-foreground: 210 40% 98%;
+    --sidebar-primary: 270 75% 65%;
+    --sidebar-primary-foreground: 210 40% 98%;
+    --sidebar-accent: 225 20% 15%;
+    --sidebar-accent-foreground: 210 40% 98%;
+    --sidebar-border: 225 20% 18%;
+    --sidebar-ring: 270 75% 65%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+    font-feature-settings: "rlig" 1, "calt" 1;
+  }
+}
+
+@layer utilities {
+  .gradient-primary {
+    background: linear-gradient(135deg, hsl(var(--gradient-start)), hsl(var(--gradient-end)));
+  }
+  
+  .gradient-text {
+    background: linear-gradient(135deg, hsl(var(--gradient-start)), hsl(var(--gradient-end)));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+  
+  .glass-card {
+    background: hsl(var(--glass-bg) / 0.5);
+    backdrop-filter: blur(12px);
+    border: 1px solid hsl(var(--glass-border) / 0.5);
+  }
+  
+  .glow-primary {
+    box-shadow: 0 0 30px hsl(var(--glow-primary) / 0.3);
+  }
+  
+  .glow-secondary {
+    box-shadow: 0 0 30px hsl(var(--glow-secondary) / 0.3);
+  }
+  
+  .animate-gradient {
+    background-size: 200% 200%;
+    animation: gradient 8s ease infinite;
+  }
+  
+  @keyframes gradient {
+    0%, 100% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+  }
+}
