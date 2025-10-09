@@ -2,36 +2,26 @@ import { Briefcase } from "lucide-react";
 
 const experienceData = [
   {
-    title: "Senior Full-Stack Developer",
-    company: "Tech Innovations Inc.",
-    period: "2022 - Present",
-    description: "Leading development of enterprise applications, mentoring junior developers, and architecting scalable solutions.",
+    title: "Full-Stack Developer(Intern)",
+    company: "Jabsz Gaming Studio",
+    period: "01/08/2025 - Present",
+    description: "Developed and maintained a React Native/Expo mobile app and a responsive React web interface, ensuring seamless performance across devices.",
     achievements: [
-      "Reduced application load time by 60%",
-      "Led team of 5 developers",
-      "Implemented CI/CD pipeline",
+      "Revamped the UI/UX architecture, improving design consistency, responsiveness, and user satisfaction by 50%.",
+      "Optimized backend performance with Firebase, improving real-time updates, data synchronization, and cloud security.",
+      "Collaborated with design and QA teams to ensure high-quality, scalable, and well-tested releases.",
     ],
   },
+  
   {
-    title: "Full-Stack Developer",
-    company: "Digital Solutions Ltd.",
-    period: "2020 - 2022",
-    description: "Developed and maintained multiple client projects using modern web technologies.",
-    achievements: [
-      "Built 12+ production applications",
-      "Improved code quality with testing",
-      "Implemented responsive designs",
-    ],
-  },
-  {
-    title: "Frontend Developer",
-    company: "Creative Agency Co.",
-    period: "2018 - 2020",
+    title: "Full Stack Developer(Freelance)",
+    company: "Zesframe",
+    period: "12/05/2055 - 30/09/2025",
     description: "Created engaging user interfaces and interactive web experiences for various clients.",
     achievements: [
-      "Delivered 20+ client projects",
-      "Optimized website performance",
-      "Collaborated with design team",
+      " Improved website responsiveness by 40% using Next.js and server-side rendering to prevent data leaks.",
+      "Integrated backend with React components and maintained 100% version control using Git and GitHub.",
+      "Managed deployment and hosting, ensuring 99.9% uptime with optimized workflows and infrastructure monitoring.",
     ],
   },
 ];

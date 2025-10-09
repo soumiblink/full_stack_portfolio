@@ -36,7 +36,7 @@ const projectsData = [
     description: " Full Stack Portfolio - A personal portfolio website showcasing my projects, skills, and experience, built with a modern tech stack to demonstrate my full-stack development capabilities.",
     tech: ["React.js", "Node.js", "TypeScript", "Tailwind CSS"],
     github: "https://github.com/soumibfull_stack_portfolio",
-    live: "https://example.com",
+    live: "https://full-stack-portfolio-rust.vercel.app/",
   },
   {
     title: "Crop Recommendation System Using ML",
