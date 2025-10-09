@@ -5,17 +5,17 @@ const skillsData = [
   {
     icon: Code2,
     title: "Frontend Development",
-    skills: ["React", "TypeScript", "Tailwind CSS", "Next.js"],
+    skills: ["React.js", "HTML5", "Vite", "JavaScript", "TypeScript", "Tailwind CSS", "Next.js"],
   },
   {
     icon: Server,
     title: "Backend Development",
-    skills: ["Node.js", "Python", "PostgreSQL", "REST APIs"],
+    skills: ["Node.js", "Express.js", "Python","Django", "PostgreSQL", "Fast APIs" , "REST APIs"],
   },
   {
     icon: Database,
     title: "Database & Cloud",
-    skills: ["MongoDB", "Supabase", "AWS", "Docker"],
+    skills: ["MongoDB", "Supabase", "Firebase" , "AWS", "Docker", "Vercel"],
   },
   {
     icon: Smartphone,
@@ -25,7 +25,7 @@ const skillsData = [
   {
     icon: Zap,
     title: "Tools & DevOps",
-    skills: ["Git", "CI/CD", "Linux", "Nginx"],
+    skills: ["Git", "CI/CD", "Linux", "Nginx", "Azure", "Jira", "Agile Methodologies"],
   },
   {
     icon: Palette,
