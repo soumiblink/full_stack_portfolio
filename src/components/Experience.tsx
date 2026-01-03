@@ -4,7 +4,7 @@ const experienceData = [
   {
     title: "Full-Stack Developer(Intern)",
     company: "Jabsz Gaming Studio",
-    period: "01/08/2025 - Present",
+    period: "01/08/2025 - 30/11/2025",
     description: "Developed and maintained a React Native/Expo mobile app and a responsive React web interface, ensuring seamless performance across devices.",
     achievements: [
       "Revamped the UI/UX architecture, improving design consistency, responsiveness, and user satisfaction by 50%.",

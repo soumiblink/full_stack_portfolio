@@ -18,7 +18,7 @@ const Hero = () => {
       <div className="relative z-10 container mx-auto px-4 py-20 text-center">
         <div className="animate-fade-in">
           <h1 className="text-5xl md:text-7xl lg:text-8xl font-bold mb-6 tracking-tight">
-            Hi, I'm <span className="gradient-text">Soumi Ghosh</span>
+            <span className="gradient-text">Soumi Ghosh</span>
           </h1>
           <p className="text-2xl md:text-3xl text-muted-foreground mb-4">
             Full-Stack Developer
