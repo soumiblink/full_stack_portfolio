@@ -32,20 +32,6 @@ export const projectsData: Project[] = [
     live: "https://flowgraph-ai-adm2yzuqqkju2we9jrkpjf.streamlit.app//",
   },
   
-  {
-    title: "AI powered Applicant Tracking System",
-    description: "AI powered applicant tracking system - An advanced ATS that leverages AI to streamline recruitment processes, enhance candidate matching, and improve hiring decisions.",
-    tech: ["React.js", "TypeScript", "Vite", "Tailwind"],
-    github: "https://github.com/soumiblink/AI_powered_applicant_tracking_system",
-    live: "https://ai-powered-applicant-tracking-syste-pink.vercel.app/",
-  },
-  {
-    title: "StudyBuddy",
-    description: "StudyBuddy - A collaborative study platform that connects students for group study sessions, resource sharing, and peer support by leveraging real-time communication and interactive tools.",
-    tech: ["Python", "Django", "Node.js", "Tailwind CSS", "JWT"],
-    github: "https://github.com/soumiblink/StudyBuddy",
-    live: "https://github.com/soumiblink/StudyBuddy",
-  },
   
   {
     title: "Full Stack Portfolio",
@@ -54,6 +40,15 @@ export const projectsData: Project[] = [
     github: "https://github.com/soumiblink/full_stack_portfolio",
     live: "https://soumighosh.vercel.app/",
   },
+
+  {
+    title: "AI powered Applicant Tracking System",
+    description: "AI powered applicant tracking system - An advanced ATS that leverages AI to streamline recruitment processes, enhance candidate matching, and improve hiring decisions.",
+    tech: ["React.js", "TypeScript", "Vite", "Tailwind"],
+    github: "https://github.com/soumiblink/AI_powered_applicant_tracking_system",
+    live: "https://ai-powered-applicant-tracking-syste-pink.vercel.app/",
+  },
+  
   {
     title: "Fuel Route Optimizer",
     description: "A Django REST API APP that calculates an optimized driving route between two coordinates and estimates fuel stops and fuel cost along the route. This project integrates with the OpenRouteService API and uses fuel price data to simulate fuel optimization.",
@@ -69,6 +64,14 @@ export const projectsData: Project[] = [
     live: "https://github.com/soumiblink/Crop-Recommendation-System-Using-ML",
   },
   
+
+  {
+    title: "StudyBuddy",
+    description: "StudyBuddy - A collaborative study platform that connects students for group study sessions, resource sharing, and peer support by leveraging real-time communication and interactive tools.",
+    tech: ["Python", "Django", "Node.js", "Tailwind CSS", "JWT"],
+    github: "https://github.com/soumiblink/StudyBuddy",
+    live: "https://github.com/soumiblink/StudyBuddy",
+  },
   {
     title: "Project Management App",
     description: "PRO - a project management app designed to help you manage your projects more efficiently.",
