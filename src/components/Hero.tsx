@@ -1,5 +1,5 @@
 import { Button } from "@/components/ui/button";
-import { ArrowDown, Github, Linkedin, Mail } from "lucide-react";
+import { Github, Linkedin, Mail } from "lucide-react";
 import { contactInfo } from "@/config/contact";
 import { motion } from "framer-motion";
 
@@ -135,15 +135,7 @@ const Hero = () => {
           </motion.nav>
         </motion.div>
 
-        <motion.button
-          onClick={() => scrollToSection('skills')}
-          className="absolute bottom-8 left-1/2 -translate-x-1/2 text-muted-foreground hover:text-primary transition-colors focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2 rounded"
-          aria-label="Scroll to skills section"
-          animate={{ y: [0, 10, 0] }}
-          transition={{ duration: 2, repeat: Infinity, ease: "easeInOut" }}
-        >
-          <ArrowDown className="w-8 h-8" aria-hidden="true" />
-        </motion.button>
+
       </div>
     </section>
   );
