@@ -18,7 +18,7 @@ export const projectsData: Project[] = [
 
   {
     title: "FinSight",
-    description: "FinSight is a backend system for managing personal financial data with a strong focus on secure and structured access. I designed a role-aware REST API to ensure that sensitive data is handled correctly at the server level, emphasizing robust data modeling and access control rather than relying on the client. The frontend is built with React and Tailwind CSS, providing a clean and responsive interface for users to interact with their financial data. The backend is developed using Django and Django REST Framework, utilizing SQLite for data storage. JWT is implemented for secure authentication and authorization, ensuring that users can only access their own financial information.",
+    description: "FinSight is a backend system for managing personal financial data with a strong focus on secure and structured access. I designed a role-aware REST API to ensure that sensitive data is handled correctly at the server level, emphasizing robust data modeling and access control rather than relying on the client.",
     tech: ["Python", "Django", "Django REST Framework", "SQLite", "React 18", "Tailwind CSS", "JWT"],
     github: "https://github.com/soumiblink/finsight",
     live: "https://finsight-brown.vercel.app/",
@@ -42,7 +42,7 @@ export const projectsData: Project[] = [
 
  {
     title: "LedgerFlow",
-    description: "A minimal yet production-ready payout engine that allows merchants to accumulate earnings and withdraw funds securely. I focused on ensuring financial correctness by enforcing balance checks and building a reliable payout flow that prevents over-withdrawal. The backend is built with Django and Django REST Framework, utilizing PostgreSQL (Neon) for data storage. Celery and Redis are used for handling asynchronous tasks related to payout processing. The frontend is developed with React 1 8 and styled with Tailwind CSS, providing a clean and responsive interface for users to manage their earnings and withdrawals. Axios is used for making API requests to the backend.",
+    description: "A minimal yet production-ready payout engine that allows merchants to accumulate earnings and withdraw funds securely. I focused on ensuring financial correctness by enforcing balance checks and building a reliable payout flow that prevents over-withdrawal. The backend is built with Django and Django REST Framework, utilizing PostgreSQL (Neon) for data storage. ",
     tech: ["Django", "Django REST Framework", "PostgreSQL (Neon)", "Celery", "Redis", "React 18", "Tailwind CSS", "Axios"],
     github: "https://github.com/soumiblink/LedgerFlow",
     live: "https://ledger-flow-mu.vercel.app/",
