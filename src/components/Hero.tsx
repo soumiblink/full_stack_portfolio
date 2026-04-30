@@ -65,7 +65,7 @@ const Hero = () => {
             transition={{ duration: 0.8, delay: 0.4 }}
             className="text-2xl md:text-3xl text-muted-foreground mb-4"
           >
-            Full Stack Software Developer .
+            Software Engineer and aspiring Product Manager  .
           </motion.p>
           
           <motion.p
@@ -74,8 +74,7 @@ const Hero = () => {
             transition={{ duration: 0.8, delay: 0.6 }}
             className="text-lg md:text-xl text-muted-foreground max-w-2xl mx-auto mb-12"
           >
-            Crafting Elegant Solutions to Complex Problems. Passionate About Creating 
-            Exceptional Digital Dxperiences with Modern Technologies.
+            I build software with a product mindset. Beyond writing code, I focus on identifying real user problems, defining solutions, and iterating based on feedback. My goal is to create products that are not just functional, but meaningful and usable.
           </motion.p>
           
           <motion.nav
