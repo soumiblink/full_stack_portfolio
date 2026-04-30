@@ -32,6 +32,23 @@ export const projectsData: Project[] = [
     live: "https://flowgraph-ai-adm2yzuqqkju2we9jrkpjf.streamlit.app//",
   },
   
+  {
+    title: "Conversa AI",
+    description: "Conversa AI is a real-time meeting assistant that listens to conversations, transcribes them, and continuously generates intelligent suggestions to help users respond more effectively.",
+    tech: ["React", "Next.js", "Tailwind CSS", "Next.js API Routes", "Whisper Large V3", "GPT-OSS 120B"],
+    github: "https://github.com/soumiblink/conversa-ai",
+    live: "https://conversa-ai-three.vercel.app/",
+  },
+
+ {
+    title: "LedgerFlow",
+    description: "A minimal but production-correct payout engine. Merchants accumulate balance from incoming payments and withdraw to their bank account. The system ensures that merchants can only withdraw up to their available balance, and it handles the payout process securely and efficiently.",
+    tech: ["Django", "Django REST Framework", "PostgreSQL (Neon)", "Celery", "Redis", "React 18", "Tailwind CSS", "Axios"],
+    github: "https://github.com/soumiblink/LedgerFlow",
+    live: "https://ledger-flow-mu.vercel.app/",
+  },
+
+
   
   {
     title: "Full Stack Portfolio",
@@ -56,13 +73,7 @@ export const projectsData: Project[] = [
     github: "https://github.com/soumiblink/spotter_python_django_assignment",
     live: "https://github.com/soumiblink/spotter_python_django_assignment",
   },
-  {
-    title: "Crop Recommendation System Using ML",
-    description: "Crop Recommendation System Using ML - A machine learning-based application that analyzes soil, weather, and crop data to provide personalized crop recommendations for farmers, optimizing yield and sustainability.",
-    tech: ["Python", "Jupyter Notebook", "HTML5", "CSS3"],
-    github: "https://github.com/soumiblink/Crop-Recommendation-System-Using-ML",
-    live: "https://github.com/soumiblink/Crop-Recommendation-System-Using-ML",
-  },
+  
   
 
   {
