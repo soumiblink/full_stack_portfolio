@@ -7,6 +7,19 @@ export interface Experience {
 }
 
 export const experienceData: Experience[] = [
+
+  {
+    title: " Software Engineer Intern",
+    company: "Blackcoffer Pvt. Ltd.",
+    period: "01/05/2026 - Present",
+    description: "Worked on a production-level React Native + Expo application, focusing on API integration, onboarding workflows, app debugging, and frontend performance improvements while collaborating with backend teams.",
+    achievements: [
+      "Integrating and testing multiple sequential backend API workflows in a React Native + Expo application for enterprise pod creation and onboarding flows",
+      "Working on frontend integration of API endpoints, debugging API execution flow, handling loading/progress states, and coordinating with backend teams for deployment validation",
+      "Debugged and stabilized React Native mobile app issues related to Expo development builds, native modules, Gradle, Metro bundler, and Android runtime behavior.",
+    ],
+  },
+
   {
     title: "Full-Stack Developer(Intern)",
     company: "Jabsz Gaming Studio",
